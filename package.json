@@ -62,7 +62,15 @@
     "parserOptions": {
       "ecmaVersion": 2020
     },
-    "rules": {},
+    "rules": {
+      "@typescript-eslint/no-inferrable-types": [
+        2,
+        {
+          "ignoreParameters": true,
+          "ignoreProperties": true
+        }
+      ]
+    },
     "overrides": [
       {
         "files": [
